@@ -1,6 +1,6 @@
 package arrays;
 
-//import java.util.Arrays;
+import java.util.Arrays;
 
 public class DuplicateElementsOptimal {
 
@@ -8,7 +8,7 @@ public class DuplicateElementsOptimal {
 
 		int[] arr= {1,2,1,3,3};
 		
-		//Arrays.sort(arr);
+		Arrays.sort(arr);
 		
 		int i=0;
 		int j=1;
