@@ -1,5 +1,6 @@
 package oopsConcepts.Inheritance;
 
+// DIAMOND PROBLEM - METHOD AMBIGUITY 
     class Animal {
 	   public void  bark() {
 		  System.out.println("Animal barks!!");	  
@@ -18,16 +19,16 @@ package oopsConcepts.Inheritance;
 	   }
    }
    
-   class Cow extends Dog{   // 
-	   
-   }
+//   class Cow extends Dog,Cat{   // METHOD AMBIGUITY
+//	   
+//   }
 
 public class TestDemoMADP {
 
 	public static void main(String[] args) {
 	
-		Cow c= new Cow();
-		c.angry();	
+		//Cow c= new Cow();
+		//c.angry();	
 	}
 
 }
