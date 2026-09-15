@@ -29,7 +29,7 @@ public interface Animal {
 	
 	// to avoid duplicate and changing of data we use private method instead of default method
 	
-	 private static void drink()
+	 private static void drink() 
 	 {             
 		 System.out.println("Animals drink water!!"); // nobody can change or override the method 
 		                                              //unlike default method.
