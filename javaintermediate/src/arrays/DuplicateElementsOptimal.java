@@ -19,17 +19,7 @@ public class DuplicateElementsOptimal {
 			}
 			i++;
 			j++;
-		}
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		}		
 		
 	}
 

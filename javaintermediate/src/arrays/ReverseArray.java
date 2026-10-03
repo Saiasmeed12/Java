@@ -1,5 +1,5 @@
 package arrays;
-
+// Reverse an array using two pointers. 
 import java.util.Arrays;
 
 public class ReverseArray {
