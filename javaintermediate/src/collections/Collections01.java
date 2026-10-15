@@ -15,6 +15,7 @@ public class Collections01 {
 		c.add(300);
 		c.add(400);
 		
+		
 		Collection<String> n = new ArrayList<>();
 		
 		n.add("A");
